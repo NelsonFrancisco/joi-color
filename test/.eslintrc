@@ -1,0 +1,6 @@
+{
+  "globals": {
+      "should": true,
+      "chai": true
+  }
+}
