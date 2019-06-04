@@ -4,7 +4,7 @@
   "description": "Extension to validate colors",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "NODE_ENV=test mocha --timeout 1000 --require test/setup"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/NelsonFrancisco/joi-color/issues"
   },
-  "homepage": "https://github.com/NelsonFrancisco/joi-color#readme"
+  "homepage": "https://github.com/NelsonFrancisco/joi-color#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-security": "^1.4.0",
+    "joi": "^14.3.1",
+    "mocha": "^6.1.4",
+    "chai": "^4.2.0"
+  }
 }
