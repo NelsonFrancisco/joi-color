@@ -1,0 +1,19 @@
+{
+  "name": "joi-color",
+  "version": "1.0.0",
+  "description": "Extension to validate colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NelsonFrancisco/joi-color.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NelsonFrancisco/joi-color/issues"
+  },
+  "homepage": "https://github.com/NelsonFrancisco/joi-color#readme"
+}
